@@ -15,7 +15,6 @@ export class ApiService {
   api_url:string;
   states_url:string;
 
-
   getTimelinedata():Observable<any>{
     return this.http.get(this.api_url+"timeline");
   }
